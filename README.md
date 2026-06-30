@@ -1,45 +1,41 @@
 # David Nichols
-### Systems & AI Operations Engineer
-📍 Iowa, USA
+
+**Building vision systems that work on real hardware.** 17. Edge-first.
+
+[![X](https://img.shields.io/twitter/follow/real_dnichols?style=social)](https://x.com/real_dnichols)
 
 ---
 
-## 🛠️ Operational Profile
-Systems-first infrastructure optimizer focused on building repeatable, low-maintenance infrastructure and deploying automated AI orchestration pipelines. Specializing in local virtualization, Linux systems administration, and production-grade networking.
+### 🔬 [apple-quality-recognition-engine](https://github.com/davidnichols-ops/apple-quality-recognition-engine)
+
+Real-time CV pipeline for apple variety detection and USDA grading. Built for the family orchard — harvest deadline November 28, 2026.
+
+```
+YOLO11 → CoreML → Apple Neural Engine (M4)
+Detection: on-device. Grading: deterministic YAML policy. No judgment in the weights.
+```
+
+- **6-stage pipeline:** instance parsing → discard check → IoA spatial binding → deterministic grading → edge harvest → output render
+- **Hardware-hardened:** automatic Arducam reconnection on frame drop, operator override logging
+- **Active learning foundation:** low-confidence frames (0.40–0.65) auto-captured for retraining
+- **Dynamic config:** defect taxonomy and facility rules loaded at runtime — change policy without retraining
 
 ---
 
-## 🚀 Core Core Infrastructure Stack
+---
 
-### 🐧 Systems & Virtualization
-- **OS:** Linux (Debian/Ubuntu Server)
-- **Virtualization:** Proxmox VE / KVM / LXC Containers
-- **Containerization:** Docker / Docker Compose
+### 🧠 Principles
 
-### 🌐 Networking & Security
-- **Core:** VLAN Segmentation, Subnetting, Firewall Management
-- **Protocols:** SSH, DNS (Pi-hole/Unbound), DHCP, Reverse Proxies (Nginx/Traefik)
+> **Neural networks identify. Algorithms decide.**
 
-### 🤖 AI Orchestration & Scripting
-- **Automation:** Bash scripting, Python (Automation & Data Pipelines)
-- **AI Layer:** Local LLM deployment, Agentic workflows, Orchestration tooling
+Judgment is deterministic, auditable, and lives in config — not floating-point weights. Edge-first means on-device. Hardware reliability is table stakes, not an afterthought. Low-confidence frames are free training data if you capture them from day one.
 
 ---
 
-## 🏡 Home Lab & Active Production Systems
-*My active environment used for testing, deployment, and configuration management:*
-- **Compute:** My fucking lapot and old PC's
-- **Storage:** 2TB SSD collection. Aformentioned fucking laptop
-- **Internal Services:** Cloud VPS, running VLess+REALITY for proxy
+### 📬 Open to roles
+
+Completing NVIDIA certification. Gap year starts late 2026. Looking for engineering work in computer vision, edge ML, or developer tools.
+
+[GitHub](https://github.com/davidnichols-ops) · [X](https://x.com/real_dnichols)
 
 ---
-
-## 🎯 Active Targets & Focus Areas
-- Hitting production milestones for high-leverage AI Operations infrastructure.
-- Deepening enterprise-tier networking frameworks and edge computing deployments.
-- Building certs and xp
-- Meeting tech-minded people
-
----
-
-📬 **Connect:** david.nichols.ops@gmail.com | https://www.linkedin.com/in/david-nichols-ops/
