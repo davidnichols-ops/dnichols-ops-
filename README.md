@@ -2,7 +2,7 @@
 
 **Building vision systems that work on real hardware.** 17. Edge-first.
 
-[![X](https://img.shields.io/twitter/follow/real_dnichols?style=social)](https://x.com/real_dnichols)
+[![X](https://img.shields.io/badge/follow-%40real_dnichols-000000?logo=x&style=social)](https://x.com/real_dnichols)
 
 ---
 
